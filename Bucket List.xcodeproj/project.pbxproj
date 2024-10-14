@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		31F7AD3F2CB2968900BF9FCB /* Bucket List */ = {
+		31AC44272CB80ED50026CF8E /* Bucket List */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Bucket List";
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 		31F7AD342CB2968900BF9FCB = {
 			isa = PBXGroup;
 			children = (
-				31F7AD3F2CB2968900BF9FCB /* Bucket List */,
+				31AC44272CB80ED50026CF8E /* Bucket List */,
 				31F7AD502CB2968C00BF9FCB /* Bucket ListTests */,
 				31F7AD5A2CB2968C00BF9FCB /* Bucket ListUITests */,
 				31F7AD3E2CB2968900BF9FCB /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				31F7AD3F2CB2968900BF9FCB /* Bucket List */,
+				31AC44272CB80ED50026CF8E /* Bucket List */,
 			);
 			name = "Bucket List";
 			packageProductDependencies = (
@@ -195,6 +195,10 @@
 			);
 			mainGroup = 31F7AD342CB2968900BF9FCB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				31AC44312CB843AB0026CF8E /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				31AC44322CB845830026CF8E /* XCRemoteSwiftPackageReference "DateTools" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 31F7AD3E2CB2968900BF9FCB /* Products */;
 			projectDirPath = "";
@@ -552,6 +556,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31AC44312CB843AB0026CF8E /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		31AC44322CB845830026CF8E /* XCRemoteSwiftPackageReference "DateTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MatthewYork/DateTools";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 31F7AD352CB2968900BF9FCB /* Project object */;
 }
