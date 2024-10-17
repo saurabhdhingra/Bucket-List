@@ -19,4 +19,8 @@ extension View {
         self
             .frame(maxHeight: .infinity, alignment: alignment)
     }
+
+    func isSameDate(_ date1: Date, _ date2: Date) -> Bool {
+        return Calendar.current.isDate(date1, isSameDayAs: date2)
+    }
 }
